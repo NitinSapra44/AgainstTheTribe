@@ -52,7 +52,7 @@ async function loginUser(req, res) {
 
     res.status(200).json({
       message: "Login successful",
-     user: { email: foundUser.email, name: foundUser.name,_id : foundUser._id },,
+     user: { email: foundUser.email, name: foundUser.name,_id : foundUser._id },
     });
   } catch (error) {
     res.status(500).json({ message: "Login failed", detail: error.message });
