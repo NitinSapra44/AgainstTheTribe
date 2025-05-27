@@ -18,7 +18,7 @@ import { router as orderRouter } from "./routes/order.js";
 import { router as paymentRouter } from "./routes/payment.js";
 
 // CORS Configuration
-const allowedOrigins = ["http://localhost:5173", "https://againstthetribe-admin.onrender.com"];
+const allowedOrigins = ["https://againstthetribe-shop.onrender.com", "https://againstthetribe-admin.onrender.com"];
 app.use(
   cors({
     origin: (origin, callback) => {
