@@ -63,7 +63,7 @@ function Navbar() {
   }, []);
 
   function handleLogout() {
-    axiosInstance.get("/user/userlogout").then((response) => {
+    axiosInstance.get("/user/logout").then((response) => {
       alert(response.data.message);
       setUser(null);
       navigate("/");
