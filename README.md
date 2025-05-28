@@ -29,8 +29,7 @@ A robust full-stack e-commerce platform with admin and user-facing dashboards, b
   - View Users
 - 🔍 Product Filters
 - 🌐 Responsive UI
-- 📂 MongoDB Product Schema:
-  - `partyName`, `size`, `type`, `specialName`
+
 
 ---
 
