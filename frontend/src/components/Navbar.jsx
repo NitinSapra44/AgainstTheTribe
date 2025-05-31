@@ -70,7 +70,7 @@ function Navbar() {
     });
   }
 
-  if(!ready) return null
+  
   return (
     <div className="flex flex-row items-center justify-between border relative">
       {/* Logo */}
